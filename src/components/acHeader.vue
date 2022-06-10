@@ -1,5 +1,5 @@
 <template>
-  <header class="gentas-header">
+  <header class="ac-header">
     <img src="../assets/logo.png" alt="logo" width="200">
   </header>
 </template>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-header.gentas-header{
+header.ac-header{
   height: 10vh;
   background-color: white;
   display:flex;
@@ -19,12 +19,12 @@ header.gentas-header{
   padding-left: 2rem;
 }
 
-header.gentas-header img{
+header.ac-header img{
   padding-top: 10px;
 }
 
 @media screen and (min-width: 850px){
-  header.gentas-header{
+  header.ac-header{
     padding-left: 4rem;
   }
 }
